@@ -74,7 +74,7 @@
 
 **kill count endpoints**
 - getAllUser: => /api/users
-- killUser: => /api/killUser
+- killUser: => /api/kill_user
 - updateDistance: => /api/distance
 - delete: => /api/obliterate
 

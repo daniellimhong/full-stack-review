@@ -5,11 +5,11 @@ create table users(
     user_id serial primary key,
     username varchar(32) not null,
     password text not null,
-    email text not null
+    email text not null unique
 );
 
 insert into users(username, password, email)
-values('danielhong', 'test', 'danhong13@gmail.com')
+values('danielhong', 'test', 'danhong13@gmail.com');
 
 create table profile(
     profile_id serial primary key,
